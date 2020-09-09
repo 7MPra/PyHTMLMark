@@ -1,5 +1,5 @@
 import ht
-result='https://google.com'
+google='https://google.com'
 print(
 ht.head(
 	ht.title('test')
@@ -8,6 +8,6 @@ ht.head(
 +ht.body(
 	ht.h1('test')
 	+'this is test page\n'
-	+ht.a('link',href='https://google.com')
+	+ht.a('link',href=google)
 	)
 )
