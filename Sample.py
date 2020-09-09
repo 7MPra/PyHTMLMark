@@ -1,5 +1,4 @@
 import ht
-from setuptools import setup
 print("Content-Type: text/html")
 print()
 google='https://google.com'
