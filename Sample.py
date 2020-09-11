@@ -2,7 +2,7 @@ import ht
 print("Content-Type: text/html")
 print()
 google='https://google.com'
-print(
+print(html(
 ht.head(
 	ht.title('test')
 	+ht.link(rel='stylesheet',href='style.css')
@@ -12,4 +12,4 @@ ht.head(
 	+'this is test page\n'
 	+ht.a('link',href=google)
 	)
-)
+))
